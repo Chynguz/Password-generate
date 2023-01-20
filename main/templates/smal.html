@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container" style="background-color: rgb(223, 221, 219);">
+    <h1>{{context}}</h1>
+    <a href="{% url 'main' %}"><button class="btn btn-dark mt-5"> Назад</button></a>
+</div>
+
+{% endblock %}
